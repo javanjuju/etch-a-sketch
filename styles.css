@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+button{
+    font-size: 1.5rem;
+    border-radius: 10%;
+    padding: 3px;
+    text-decoration: none;
+    border: none;
+}
+.mainHeader{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.grid{
+    display: grid;
+    height: 35rem;
+    width: 35rem;
+    outline: solid;
+    margin: 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#squares{
+    outline: solid;
+    max-height: 2rem;
+    max-width: fit-content;
+}

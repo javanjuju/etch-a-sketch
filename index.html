@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="settings.js" defer></script>
+    <title>Etch A Sketch</title>
+</head>
+<body>
+    <header class="mainHeader">HELLO</header>
+    <div class="container">
+        <div>
+            <label for="color">Select Color:</label><br>
+            <input type="color" id="color" name="color" onchange= getColorValue()>
+        </div>
+        <div class="grid"></div>
+        <div class='menu'>
+            <div><button id="rainbowMode">Rainbow Mode</button></div>
+            <div><button id="eraser">Eraser</button></div>
+            <div><button id="clear">Clear</button></div>
+            <div> <input type="range" id="squares" min="1" max="20"onchange= getGridCells(),resetOnChange()></div>
+        </div>
+    </div>
+</body>
+</html>
